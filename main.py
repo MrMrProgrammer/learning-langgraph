@@ -12,7 +12,7 @@ graph.add_edge("mock_llm", END)
 graph = graph.compile()
 
 
-graph.invoke(
+a = graph.invoke(
     {
         "messages": [
             {
@@ -22,3 +22,5 @@ graph.invoke(
         ]
     }
 )
+
+print(a)

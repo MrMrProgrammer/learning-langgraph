@@ -149,7 +149,7 @@ agent = agent_builder.compile()
 # Show the agent
 png_bytes = agent.get_graph(xray=True).draw_mermaid_png()
 
-with open("graph.png", "wb") as f:
+with open("graphs/calculator_agent.png", "wb") as f:
     f.write(png_bytes)
 
 
