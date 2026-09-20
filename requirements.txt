@@ -2,3 +2,4 @@ IPython
 langchain
 langchain-openai
 python-dotenv
+deepagents
